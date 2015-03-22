@@ -152,6 +152,8 @@ ul.nav.nav-footer {
     color: #747474;
     background: whitesmoke;
     border-radius: 4px;
+    font-size: 14px;
+    font-weight: 400;
 }
 
 .footer {
@@ -208,4 +210,8 @@ footer {
     width: 30px;
     color: #FFFFFF;
     padding: 7px;
+}
+.form-group label {
+  color: #000;
+  font-weight: 400;
 }

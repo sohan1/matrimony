@@ -6,10 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>Starter Template for Bootstrap 3.3.4</title>
+    <title>Matrimony</title>
     <link rel="shortcut icon" href="">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
 
     <!--[if IE]>
         <script src="https://cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -19,7 +22,7 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <nav class="navbar navbar-fixed-top" role="navigation">
             <div class="container">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -33,12 +36,20 @@
                 </div>
 
                 <div class="collapse navbar-collapse pull-right">
-                    <ul class="nav navbar-nav">
+                    <ul class="nav nav-pills">
                         <li class="active"><a href="#">Home</a>
                         </li>
-                        <li><a href="#about">About Us</a>
+                        <li><a href="#">About Us</a>
                         </li>
-                        <li><a href="#contact">Contact</a>
+                        <li><a href="#">Our Services</a>
+                        </li>
+                        <li><a href="#">Profile</a>
+                        </li>
+                        <li><a href="#">Upload Profile</a>
+                        </li>
+                        <li><a href="#">Testimonials</a>
+                        </li>
+                        <li><a href="#">Contact Us</a>
                         </li>
                     </ul>
                 </div>
@@ -56,23 +67,18 @@
                                 <!-- Carousel items -->
                                 <div class="carousel-inner">
                                     <div class="active item">
-                                        <h2>Slide 1</h2>
                                         <div class="items">
-                                            <img src="images/logo.jpg" alt="">
+                                            <img src="images/1.jpg" alt="">
                                         </div>
                                     </div>
                                     <div class="item">
-                                        <h2>Slide 2</h2>
-                                        <div class="carousel-caption">
-                                            <h3>Second slide label</h3>
-                                            <p>Aliquam sit amet gravida nibh, facilisis gravida odio.</p>
+                                        <div class="items">
+                                            <img src="images/2.jpg" alt="">
                                         </div>
                                     </div>
                                     <div class="item">
-                                        <h2>Slide 3</h2>
-                                        <div class="carousel-caption">
-                                            <h3>Third slide label</h3>
-                                            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                                        <div class="items">
+                                            <img src="images/3.jpg" alt="">
                                         </div>
                                     </div>
                                 </div>
@@ -87,18 +93,169 @@
                         </div>
                     </div>
                     <div class="col-md-4">
-                        <div class="form">
-                            <input type="text" placeholder="what is a prime purpose?" size="50" maxlength="50" name="form[Program]" id="Program" class="first">
+                        <form class="form-horizontal" role="form">
+                            <div class="form-group">
+                                <h4 class="input-head text-center">
+                                   Quick Registration
+                               </h4>
+                                <div class="input-home">
+                                    <div class="col-md-2 control-label">
+                                        <label>Name:</label>
+                                    </div>
+                                    <div class="col-md-10">
+                                        <input class="form-control" type="text" placeholder="Enter your name">
+                                    </div>
+                                </div>
+                                <div class="input-home">
+                                    <div class="col-md-2 control-label">
+                                        <label>Age:</label>
+                                    </div>
+                                    <div class="col-md-10">
+                                        <input type="radio" name="sex" value="male"><span class="radio-btn">Male</span>
+                                        <input type="radio" name="sex" value="female"><span class="radio-btn">Female</span>
+                                    </div>
+                                </div>
+                                <div class="input-home">
+                                    <div class="col-md-2 control-label">
+                                        <label>Date:</label>
+                                    </div>
+                                    <div class="col-md-10">
+                                        <input class="form-control" type="date" placeholder="Enter your name">
+                                    </div>
+                                </div>
+                                <div class="input-home">
+                                    <div class="col-md-2 control-label">
+                                        <label>Email:</label>
+                                    </div>
+                                    <div class="col-md-10">
+                                        <input class="form-control" type="Email" placeholder="Enter your Email">
+                                    </div>
+                                </div>
 
+                                <div class="input-home">
+                                    <div class="col-md-2 control-label">
+                                        <label>Phone:</label>
+                                    </div>
+                                    <div class="col-md-10">
+                                        <input class="form-control" type="tel" placeholder="Enter your phone number">
+                                    </div>
+                                </div>
+                                <div class="input-home">
+                                    <div class="col-md-2 control-label">
+                                        <label>Religion:</label>
+                                    </div>
+                                    <div class="col-md-10">
+                                        <select class="selectpicker">
+                                            <option value="hindu">Hindu</option>
+                                            <option value="muslim">Muslim</option>
+                                            <option value="sikh">Sikh</option>
+                                            <option value="christan">Christan</option>
+                                            <option value="parsi">Parsi</option>
+                                        </select>
+                                    </div>
+                                </div>
 
-                        </div>
+                                <!--
+                                <div class="input-home">
+                                    <div class="col-md-2 control-label">
+                                        <label>Caste:</label>
+                                    </div>
+                                    <div class="col-md-10">
+                                        <input class="form-control" type="tel" placeholder="Enter your Caste">
+                                    </div>
+                                </div>
+-->
+                                <div class="input-home text-center">
+                                    <input name="btnRequestCallBack" type="submit" class="submit" value="submit">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="call-us">
+            <div class="row">
+                <div class="container">
+                    <div class="col-md-6"> <img src="images/phone.png"> Call Back Request
+                        <input type="text" placeholder="number">
+                        <input name="btnRequestCallBack" type="submit" class="submit" value="submit">
                     </div>
 
+                    <div class="col-md-6">
+                        <div class="pull-right">
+                            <img src="images/user.png">Send Us Your profile </div>
+                    </div>
                 </div>
-
+            </div>
+        </div>
+        <div class="container">
+            <div class="home-main">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="home-cont">
+                            <h4>Welcome to Solitaire Matrimony</h4>
+                            <p>Lid estrasi laborum dolo rumes fugats un ertsi untras. Etharums ser quidem facilis dolores nemis uns omnis unsersets sadips sits amet fugiats erti ipsums.Lid estrasi laborum dolo rumes fugats un ertsi untras. Etharums ser quidem facilis dolores nemis uns omnis unsersets sadips sits amet fugiats erti ipsums.
+                                <a href="#" class="pull-right">Learn More</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="home-cont">
+                            <h4>Why Choose Us</h4>
+                            <p>Lid estrasi laborum dolo rumes fugats un ertsi untras. Etharums ser quidem facilis dolores nemis uns omnis unsersets sadips sits amet fugiats erti ipsums.Lid estrasi laborum dolo rumes fugats un ertsi untras. Etharums ser quidem facilis dolores nemis uns omnis unsersets sadips sits amet fugiats erti ipsums.
+                                <a href="#" class="pull-right">Learn More</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="home-cont">
+                            <h4>	Testimonial</h4>
+                            <p>Lid estrasi laborum dolo rumes fugats un ertsi untras. Etharums ser quidem facilis dolores nemis uns omnis unsersets sadips sits amet fugiats erti ipsums.Lid estrasi laborum dolo rumes fugats un ertsi untras. Etharums ser quidem facilis dolores nemis uns omnis unsersets sadips sits amet fugiats erti ipsums.
+                                <a href="#" class="pull-right">Learn More</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
+    <footer>
+        <div class="footer">
+            <div class="container">
+                <ul class="nav nav-footer">
+                    <li class="active"><a href="#">Home</a>
+                    </li>
+                    <li><a href="#">About Us</a>
+                    </li>
+                    <li><a href="#">Sitemap</a>
+                    </li>
+                    <li><a href="#">FAQ</a>
+                    </li>
+                    <li><a href="#">Private Policy</a>
+                    </li>
+                    <li><a href="#">Disclaimer</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer1">
+            <div class="container">
+                <div class="col-md-6">Copyrights 2015| Solitaire Matrimony </div>
+
+                <div class="col-md-6">
+                    <div class="icons pull-right">
+                        <i class="fa fa-facebook"></i>
+                        <i class="fa fa-twitter"></i>
+                        <i class="fa fa-instagram"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>

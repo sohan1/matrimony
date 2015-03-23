@@ -31,7 +31,7 @@ text-decoration: none;
 .nav-pills>li.active>a:focus,
 .nav-pills>li.active>a:hover {
     color: #fff;
-    background-color: #FA7070;
+    background-color: #FC5252;
     border: 0;
     -webkit-border-radius: 0;
     -moz-border-radius: 0;
@@ -46,7 +46,7 @@ select.selectpicker {
 .nav>li>a:focus,
 .nav>li>a:hover {
     text-decoration: none;
-    background-color: #FA7070;
+    background-color: #FC5252;
     color: #fff;
     border-radius: 4px;
 }
@@ -84,7 +84,11 @@ span.radio-btn {
 }
 
 .form-group h4 {
-    margin: 0;
+    margin: -10px;
+    background: rgb(252, 82, 82);
+    padding: 13px;
+    border-radius: 0px;
+    color: #fff;
 }
 
 .call-us input {
@@ -98,10 +102,10 @@ span.radio-btn {
 }
 
 .submit {
-    width: 70px;
-    height: 30px;
+    width: 100px;
+    height: 40px;
     margin: 0px;
-    background: #FA7070 url(../images/submit.jpg) repeat-x;
+    background: #FC5252 url(../images/submit.jpg) repeat-x;
     border: 1px solid #FA7070;
     font-size: 12px;
     font-weight: bold;
@@ -167,7 +171,7 @@ ul.nav.nav-footer li a {
 .footer1 {
     padding: 20px 0;
     color: #FFFFFF;
-    background: #FA7070;
+    background: #FC5252;
 }
 
 .icons.pull-right i {
@@ -177,7 +181,8 @@ ul.nav.nav-footer li a {
 nav.navbar.navbar-fixed-top {
     height: 90px;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
-    background: #fff;
+    background: url("../images/black%20and%20white.jpg")repeat;
+    background-size: cover;
 }
 .navbar-brand>img {
   display: block;
@@ -195,7 +200,7 @@ footer {
     padding-top: 17px;
 }
 .home-cont a {
-    color: rgb(250, 112, 112);
+    color: #FC5252;
     padding: 28px 5px;
 }
 .form-horizontal .control-label {

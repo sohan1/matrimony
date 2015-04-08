@@ -345,3 +345,121 @@ ul.nav.nav-footer li:hover a {
     font-size: 32px;
     font-family: serif;
 }
+
+.content {
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    position: relative;
+    float: left;
+    margin-left: 20px;
+    padding: 15px 25px;
+    width: 80%;
+    border-width: 1px 4px 4px 3px;
+    border-style: solid;
+    border-color: #C38C8C;
+    background-color: #FFFFFF;
+    color: #333;
+    margin-top: 20px;
+}
+
+.content:before {
+    top: 48px;
+    left: -11px;
+    border-right: 19px solid rgba(0, 0, 0, 0.1);
+}
+
+.content:after,
+.content:before {
+    border-bottom: 23px solid transparent;
+    border-right: 20px solid #C38C8C;
+    top: 49px;
+    content: '';
+    position: absolute;
+    left: -11px;
+    -webkit-transform: rotate(220deg);
+    -moz-transform: rotate(220deg);
+    -o-transform: rotate(220deg);
+    -ms-transform: rotate(220deg);
+    transform: rotate(220deg);
+}
+
+.contents {
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    position: relative;
+    float: left;
+    margin-left: 20px;
+    padding: 15px 25px;
+    width: 80%;
+    border-width: 1px 4px 4px 3px;
+    border-style: solid;
+    border-color: #C38C8C;
+    background-color: #FFFFFF;
+    color: #333;
+    margin-top: 20px;
+}
+
+.contents:before {
+    top: 48px;
+    left: -11px;
+    border-right: 19px solid rgba(0, 0, 0, 0.1);
+}
+
+.contents:after,
+.contents:before {
+    border-top: 23px solid transparent;
+    border-left: 22px solid #C38C8C;
+    top: 49px;
+    content: '';
+    position: absolute;
+    right: -14px;
+    -webkit-transform: rotate(220deg);
+    -moz-transform: rotate(220deg);
+    -o-transform: rotate(220deg);
+    -ms-transform: rotate(220deg);
+    transform: rotate(220deg);
+}
+
+.content h3 {
+    font: 23px "Satisfy";
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+.content b {
+    display: block;
+    color: #75280c;
+    font: italic normal 17px Georgia;
+}
+
+.infos {
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    position: relative;
+    padding: 3px;
+    width: 130px;
+    height: 130px;
+    border: 5px solid #adaeb0;
+    margin-top: 25px;
+}
+
+.testimonals .row {
+    margin: 0px;
+}
+
+.content p {
+    margin: 10px 0 0 0;
+    font-size: 15px;
+    line-height: 1.7em;
+}
+
+.infos img {
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    width: 100%;
+}

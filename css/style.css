@@ -463,3 +463,30 @@ ul.nav.nav-footer li:hover a {
     border-radius: 50%;
     width: 100%;
 }
+
+.service1 h1 {
+    font-size: 18px;
+    color: #333333;
+    font-weight: bold;
+    font-style: italic;
+    margin: 0px;
+    padding: 10px 0px;
+    width: 95%;
+    border-bottom: 1px dashed #e1e1e1;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.service1 {
+    margin-right: 35px;
+    padding: 10px 10px 10px 0px;
+}
+
+.service1 ul li {
+    font-size: 11px;
+    line-height: 18px;
+    margin: 0px;
+    padding: 9px 0px 9px 20px;
+    color: #666666;
+    background: url(../images/right.png) no-repeat top left;
+    list-style: none;
+}

@@ -344,6 +344,8 @@ ul.nav.nav-footer li:hover a {
     color: #fff;
     font-size: 32px;
     font-family: serif;
+    position: relative;
+    bottom: 16px;
 }
 
 .content {
@@ -482,11 +484,87 @@ ul.nav.nav-footer li:hover a {
 }
 
 .service1 ul li {
-    font-size: 11px;
+    font-size: 13px;
     line-height: 18px;
     margin: 0px;
     padding: 9px 0px 9px 20px;
     color: #666666;
     background: url(../images/right.png) no-repeat top left;
     list-style: none;
+}
+.cont-set {
+    padding-top: 40px;
+}
+
+.cont-set p {
+    font-size: 15px;
+}
+.service-cont h4 {
+    text-transform: uppercase;
+    font-weight: 700;
+    color: rgb(176, 53, 38);
+    font-family: pt sans;
+}
+.img-service {
+    border: 2px solid rgb(78, 192, 242);
+    padding: 5px;
+}
+.basic img {
+    height: 175px;
+    width: 290px;
+    text-align: center;
+    overflow: hidden;
+    border: 1px solid rgb(45, 210, 231);
+    padding: 5px;
+}
+.basic {
+    padding-top: 50px;
+}
+.pakages {
+    padding-top: 20px;
+}
+.row.word-set p {
+    font-weight: 400;
+    font-size: 25px;
+    
+}
+.row.word-set {
+    text-align: center;
+    border: 1px solid rgb(221, 27, 27);
+    padding: 16px 0px 5px 0px;
+    border-radius: 30px;
+    color: rgb(221, 27, 27);
+    margin-top: 53px;
+}
+.first p{
+ -webkit-animation: fadein 10s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 10s; /* Firefox < 16 */
+        -ms-animation: fadein 10s; /* Internet Explorer */
+         -o-animation: fadein 10s; /* Opera < 12.1 */
+            animation: fadein 10s;
+}
+.scnd p{
+ -webkit-animation: fadein 20s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 20s; /* Firefox < 16 */
+        -ms-animation: fadein 20s; /* Internet Explorer */
+         -o-animation: fadein 20s; /* Opera < 12.1 */
+            animation: fadein 20s;
+}
+.fourth p{
+ -webkit-animation: fadein 30s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 30s; /* Firefox < 16 */
+        -ms-animation: fadein 30s; /* Internet Explorer */
+         -o-animation: fadein 30s; /* Opera < 12.1 */
+            animation: fadein 30s;
+}
+.fifth p{
+ -webkit-animation: fadein 40s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 40s; /* Firefox < 16 */
+        -ms-animation: fadein 40s; /* Internet Explorer */
+         -o-animation: fadein 40s; /* Opera < 12.1 */
+            animation: fadein 40s;
+}
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
 }

@@ -366,24 +366,13 @@ ul.nav.nav-footer li:hover a {
 }
 
 .content:before {
-    top: 48px;
-    left: -11px;
-    border-right: 19px solid rgba(0, 0, 0, 0.1);
-}
-
-.content:after,
-.content:before {
-    border-bottom: 23px solid transparent;
-    border-right: 20px solid #C38C8C;
+    border-top: 16px solid transparent;
+    border-right: 16px solid #C38C8C;
+    border-bottom: 16px solid transparent;
     top: 49px;
     content: '';
     position: absolute;
-    left: -11px;
-    -webkit-transform: rotate(220deg);
-    -moz-transform: rotate(220deg);
-    -o-transform: rotate(220deg);
-    -ms-transform: rotate(220deg);
-    transform: rotate(220deg);
+    left: -18px;
 }
 
 .contents {
@@ -404,34 +393,27 @@ ul.nav.nav-footer li:hover a {
 }
 
 .contents:before {
-    top: 48px;
-    left: -11px;
-    border-right: 19px solid rgba(0, 0, 0, 0.1);
-}
-
-.contents:after,
-.contents:before {
-    border-top: 23px solid transparent;
-    border-left: 22px solid #C38C8C;
+    border-top: 16px solid transparent;
+    border-left: 16px solid #C38C8C;
+    border-bottom: 16px solid transparent;
     top: 49px;
     content: '';
     position: absolute;
-    right: -14px;
-    -webkit-transform: rotate(220deg);
-    -moz-transform: rotate(220deg);
-    -o-transform: rotate(220deg);
-    -ms-transform: rotate(220deg);
-    transform: rotate(220deg);
+    right: -18px;
+    width: 0;
+    height: 0;
 }
 
-.content h3 {
+.content h3,
+.contents h3 {
     font: 23px "Satisfy";
     margin: 0;
     padding: 0;
     font-weight: normal;
 }
 
-.content b {
+.content b,
+.contents b {
     display: block;
     color: #75280c;
     font: italic normal 17px Georgia;
@@ -445,7 +427,7 @@ ul.nav.nav-footer li:hover a {
     padding: 3px;
     width: 130px;
     height: 130px;
-    border: 5px solid #adaeb0;
+    border: 5px solid #C38C8C;
     margin-top: 25px;
 }
 
@@ -492,6 +474,7 @@ ul.nav.nav-footer li:hover a {
     background: url(../images/right.png) no-repeat top left;
     list-style: none;
 }
+
 .cont-set {
     padding-top: 40px;
 }
@@ -499,16 +482,19 @@ ul.nav.nav-footer li:hover a {
 .cont-set p {
     font-size: 15px;
 }
+
 .service-cont h4 {
     text-transform: uppercase;
     font-weight: 700;
     color: rgb(176, 53, 38);
     font-family: pt sans;
 }
+
 .img-service {
     border: 2px solid rgb(78, 192, 242);
     padding: 5px;
 }
+
 .basic img {
     height: 175px;
     width: 290px;
@@ -517,54 +503,100 @@ ul.nav.nav-footer li:hover a {
     border: 1px solid rgb(45, 210, 231);
     padding: 5px;
 }
+
 .basic {
     padding-top: 50px;
 }
+
 .pakages {
     padding-top: 20px;
 }
+
 .row.word-set p {
     font-weight: 400;
     font-size: 25px;
-    
 }
+
 .row.word-set {
     text-align: center;
     border: 1px solid rgb(221, 27, 27);
     padding: 16px 0px 5px 0px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
     border-radius: 30px;
     color: rgb(221, 27, 27);
     margin-top: 53px;
 }
-.first p{
- -webkit-animation: fadein 10s; /* Safari, Chrome and Opera > 12.1 */
-       -moz-animation: fadein 10s; /* Firefox < 16 */
-        -ms-animation: fadein 10s; /* Internet Explorer */
-         -o-animation: fadein 10s; /* Opera < 12.1 */
-            animation: fadein 10s;
+
+.first p {
+    -webkit-animation: fadein 10s;
+    /* Safari, Chrome and Opera > 12.1 */
+    
+    -moz-animation: fadein 10s;
+    /* Firefox < 16 */
+    
+    -ms-animation: fadein 10s;
+    /* Internet Explorer */
+    
+    -o-animation: fadein 10s;
+    /* Opera < 12.1 */
+    
+    animation: fadein 10s;
 }
-.scnd p{
- -webkit-animation: fadein 20s; /* Safari, Chrome and Opera > 12.1 */
-       -moz-animation: fadein 20s; /* Firefox < 16 */
-        -ms-animation: fadein 20s; /* Internet Explorer */
-         -o-animation: fadein 20s; /* Opera < 12.1 */
-            animation: fadein 20s;
+
+.scnd p {
+    -webkit-animation: fadein 20s;
+    /* Safari, Chrome and Opera > 12.1 */
+    
+    -moz-animation: fadein 20s;
+    /* Firefox < 16 */
+    
+    -ms-animation: fadein 20s;
+    /* Internet Explorer */
+    
+    -o-animation: fadein 20s;
+    /* Opera < 12.1 */
+    
+    animation: fadein 20s;
 }
-.fourth p{
- -webkit-animation: fadein 30s; /* Safari, Chrome and Opera > 12.1 */
-       -moz-animation: fadein 30s; /* Firefox < 16 */
-        -ms-animation: fadein 30s; /* Internet Explorer */
-         -o-animation: fadein 30s; /* Opera < 12.1 */
-            animation: fadein 30s;
+
+.fourth p {
+    -webkit-animation: fadein 30s;
+    /* Safari, Chrome and Opera > 12.1 */
+    
+    -moz-animation: fadein 30s;
+    /* Firefox < 16 */
+    
+    -ms-animation: fadein 30s;
+    /* Internet Explorer */
+    
+    -o-animation: fadein 30s;
+    /* Opera < 12.1 */
+    
+    animation: fadein 30s;
 }
-.fifth p{
- -webkit-animation: fadein 40s; /* Safari, Chrome and Opera > 12.1 */
-       -moz-animation: fadein 40s; /* Firefox < 16 */
-        -ms-animation: fadein 40s; /* Internet Explorer */
-         -o-animation: fadein 40s; /* Opera < 12.1 */
-            animation: fadein 40s;
+
+.fifth p {
+    -webkit-animation: fadein 40s;
+    /* Safari, Chrome and Opera > 12.1 */
+    
+    -moz-animation: fadein 40s;
+    /* Firefox < 16 */
+    
+    -ms-animation: fadein 40s;
+    /* Internet Explorer */
+    
+    -o-animation: fadein 40s;
+    /* Opera < 12.1 */
+    
+    animation: fadein 40s;
 }
+
 @-webkit-keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }

@@ -259,8 +259,8 @@ nav.navbar {
 
 .navbar-brand>img {
     display: block;
-    margin: -6px 0px 0px 0px;
-    width: 265px;
+    margin: -5px 0px 0px 0px;
+    width: 220px;
 }
 
 footer {
@@ -309,6 +309,7 @@ ul.nav.nav-footer li:hover a {
 
 .body-cont {
     padding: 30px 35px;
+    height: 530px;
 }
 
 .input-home a {
@@ -599,4 +600,13 @@ ul.nav.nav-footer li:hover a {
     to {
         opacity: 1;
     }
+}
+
+.body-cont ul li {
+    list-style-type: decimal;
+    padding: 10px 2px;
+}
+
+.home-anchor {
+    padding-bottom: 30px;
 }

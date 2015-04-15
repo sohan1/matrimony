@@ -602,9 +602,21 @@ ul.nav.nav-footer li:hover a {
     }
 }
 
+.profile-tab {
+    padding: 20px 0;
+}
+
 .body-cont ul li {
     list-style-type: decimal;
     padding: 10px 2px;
+}
+
+.details {
+    padding: 20px;
+    -webkit-box-shadow: 2px 2px 2px 3px #ddd;
+    -moz-box-shadow: 2px 2px 2px 3px #ddd;
+    box-shadow: 2px 2px 2px 3px #ddd;
+    margin-top: 20px;
 }
 
 .home-anchor {

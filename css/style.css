@@ -697,7 +697,7 @@ p {
 p.qoute {
     font-size: 160px !important;
     text-align: center;
-    margin: -35px;
+    margin: -38px;
     color: rgba(201, 94, 80, 1) !important;
     padding-right: 20px;
 }
@@ -719,7 +719,9 @@ padding-top: 35px;
 }
 p.pull-right.thk-you {
   padding-right: 20px;
-  padding-top: 0px;
+  padding-top: 6px;
+  font-size: 15px;
+  font-style: italic;
 }
 
 p.pull-right.thk-you {}

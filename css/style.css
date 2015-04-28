@@ -26,15 +26,11 @@ a:hover {
 .items img {
     width: 100%;
     height: 350px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
     border-radius: 10px;
 }
 
 .items {
     height: 350px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
     border-radius: 10px;
 }
 
@@ -73,8 +69,6 @@ span.radio-btn {
 }
 
 .form-control {
-    -webkit-border-radius: 0px;
-    -moz-border-radius: 0px;
     border-radius: 0px;
 }
 
@@ -122,17 +116,11 @@ span.radio-btn {
     -moz-background-size: cover;
     -o-background-size: cover;
     border: 1px solid rgb(221, 27, 27);
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
 }
 
 .bg1 {
     /* background: url('../images/About-us-image.jpg') no-repeat; */
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
     border: 1px solid rgb(221, 27, 27);
 }
@@ -144,9 +132,6 @@ span.radio-btn {
     -moz-background-size: cover;
     -o-background-size: cover;
     border: 1px solid rgb(221, 27, 27);
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
     /* border-radius: 11px; */
 }
@@ -160,8 +145,6 @@ span.radio-btn {
     margin: -11px;
     background: rgb(221, 27, 27);
     padding: 13px;
-    -webkit-border-radius: 0px;
-    -moz-border-radius: 0px;
     border-radius: 0px;
     border-radius: 10px 10px 0 0;
     -moz-border-radius: 10px 10px 0 0;
@@ -190,8 +173,6 @@ span.radio-btn {
     color: #FFFFFF;
     text-transform: uppercase;
     font-family: Arial, Helvetica, sans-serif;
-    -webkit-border-radius: 2px;
-    -moz-border-radius: 2px;
     border-radius: 2px;
     font-weight: 400;
     text-transform: uppercase !important;
@@ -199,18 +180,12 @@ span.radio-btn {
 
 .nav>li>a {
     text-decoration: none;
-    -webkit-border-radius: 0px;
-    -moz-border-radius: 0px;
     border-radius: 0px;
     color: #000000;
     font-weight: 600;
 }
 
 ul.nav.nav-footer {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -moz-box;
-    display: -ms-flexbox;
     display: flex;
 }
 
@@ -219,8 +194,6 @@ ul.nav.nav-footer {
     background: #FFFFFF;
     border: 1px solid rgb(221, 27, 27);
     height: 77px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
     border-radius: 5px;
     padding: 0px 15px;
     margin-top: 20px;
@@ -239,8 +212,6 @@ ul.nav.nav-footer {
     padding: 10px;
     color: #747474;
     background: white;
-    -webkit-border-radius: 2px;
-    -moz-border-radius: 2px;
     border-radius: 2px;
     font-size: 14px;
     font-weight: 400;
@@ -251,9 +222,6 @@ ul.nav.nav-footer {
 
 .footer {
     background: url("../images/black%20and%20white.jpg")repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
 }
 
@@ -278,12 +246,7 @@ ul.nav.nav-footer li a {
 
 nav.navbar {
     height: 90px;
-    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
-    -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
 }
 
@@ -322,8 +285,6 @@ footer {
 
 .icons.pull-right i {
     background: rgb(255, 255, 255);
-    -webkit-border-radius: 100%;
-    -moz-border-radius: 100%;
     border-radius: 100%;
     height: 30px;
     width: 30px;
@@ -367,9 +328,6 @@ ul.nav.nav-footer li:hover a {
 
 .bgourservices {
     background: url('../images/banner_red.jpg');
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
 }
 
@@ -382,8 +340,6 @@ ul.nav.nav-footer li:hover a {
 }
 
 .content {
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
     border-radius: 10px;
     position: relative;
     float: left;
@@ -409,8 +365,6 @@ ul.nav.nav-footer li:hover a {
 }
 
 .contents {
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
     border-radius: 10px;
     position: relative;
     float: left;
@@ -453,8 +407,6 @@ ul.nav.nav-footer li:hover a {
 }
 
 .infos {
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
     border-radius: 50%;
     position: relative;
     padding: 3px;
@@ -475,8 +427,6 @@ ul.nav.nav-footer li:hover a {
 }
 
 .infos img {
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
     border-radius: 50%;
     width: 100%;
 }
@@ -555,8 +505,6 @@ ul.nav.nav-footer li:hover a {
     text-align: center;
     border: 1px solid rgb(221, 27, 27);
     padding: 16px 0px 5px 0px;
-    -webkit-border-radius: 0;
-    -moz-border-radius: 0;
     border-radius: 0;
     color: rgb(221, 27, 27);
     margin-top: 53px;
@@ -570,12 +518,6 @@ ul.nav.nav-footer li:hover a {
     /* Internet Explorer */
     /* Opera < 12.1 */
     
-    -webkit-animation: fadein 10s;
-    
-    -moz-animation: fadein 10s;
-    
-    -o-animation: fadein 10s;
-    
     animation: fadein 10s;
 }
 
@@ -586,12 +528,6 @@ ul.nav.nav-footer li:hover a {
     -ms-animation: fadein 20s;
     /* Internet Explorer */
     /* Opera < 12.1 */
-    
-    -webkit-animation: fadein 20s;
-    
-    -moz-animation: fadein 20s;
-    
-    -o-animation: fadein 20s;
     
     animation: fadein 20s;
 }
@@ -604,12 +540,6 @@ ul.nav.nav-footer li:hover a {
     /* Internet Explorer */
     /* Opera < 12.1 */
     
-    -webkit-animation: fadein 30s;
-    
-    -moz-animation: fadein 30s;
-    
-    -o-animation: fadein 30s;
-    
     animation: fadein 30s;
 }
 
@@ -621,19 +551,11 @@ ul.nav.nav-footer li:hover a {
     /* Internet Explorer */
     /* Opera < 12.1 */
     
-    -webkit-animation: fadein 40s;
-    
-    -moz-animation: fadein 40s;
-    
-    -o-animation: fadein 40s;
-    
     animation: fadein 40s;
 }
 
 .details {
     padding: 20px;
-    -webkit-box-shadow: 1px 0px 0px 2px #ddd;
-    -moz-box-shadow: 1px 0px 0px 2px #ddd;
     box-shadow: 1px 0px 0px 2px #ddd;
     margin: 20px;
 }
@@ -698,24 +620,28 @@ p {
 .bg-testimonals
 {
 background: url(../images/testimonals.jpg)no-repeat center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
 height: 325px;
 color: #fff;
 padding-left: 150px;
 padding-top: 19px;
     margin-top: 20px;
+padding-right: 9px;
 }
 p.pull-right.thk-you {
   padding-right: 20px;
-  padding-top: 20px;
+  padding-top: 0px;
 }
+
+p.pull-right.thk-you {}
 .bg-testimonals p {
   color: #fff;
 }
 
 .bg-testimonals h4 {
-  padding-bottom: 30px;
+  padding-bottom: 20px;
+}
+.testimonalss
+{
+    padding: 20px;
 }

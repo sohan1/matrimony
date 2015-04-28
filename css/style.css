@@ -252,9 +252,8 @@ nav.navbar {
 
 .navbar-brand>img {
     display: block;
-    margin: 6px 0px 0px 0px;
-    width: 225px;
-    height: 50px;
+    margin: 10px 0px 0px 0px;
+    width: 300px;
 }
 
 img {}
@@ -611,4 +610,9 @@ p {
 
 .content-org ul li {
     list-style: none;
+}
+
+.profileid
+{
+      padding-top: 12px;
 }

@@ -130,6 +130,7 @@ span.radio-btn {
 
 .bg1 {
     /* background: url('../images/About-us-image.jpg') no-repeat; */
+    
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -547,19 +548,21 @@ ul.nav.nav-footer li:hover a {
 }
 
 .row.word-set p {
-    font-weight: 400;
-    font-size: 18px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #fff;
 }
 
 .row.word-set {
     text-align: center;
-    border: 1px solid rgb(221, 27, 27);
-    padding: 16px 0px 5px 0px;
+    border: 1px solid #DD1B1B;
+    padding: 10px 0px 1px 0px;
     -webkit-border-radius: 0;
     -moz-border-radius: 0;
     border-radius: 0;
     color: rgb(221, 27, 27);
     margin-top: 53px;
+    background: #DD1B1B;
 }
 
 .first p {
@@ -571,11 +574,8 @@ ul.nav.nav-footer li:hover a {
     /* Opera < 12.1 */
     
     -webkit-animation: fadein 10s;
-    
     -moz-animation: fadein 10s;
-    
     -o-animation: fadein 10s;
-    
     animation: fadein 10s;
 }
 
@@ -588,11 +588,8 @@ ul.nav.nav-footer li:hover a {
     /* Opera < 12.1 */
     
     -webkit-animation: fadein 20s;
-    
     -moz-animation: fadein 20s;
-    
     -o-animation: fadein 20s;
-    
     animation: fadein 20s;
 }
 
@@ -605,11 +602,8 @@ ul.nav.nav-footer li:hover a {
     /* Opera < 12.1 */
     
     -webkit-animation: fadein 30s;
-    
     -moz-animation: fadein 30s;
-    
     -o-animation: fadein 30s;
-    
     animation: fadein 30s;
 }
 
@@ -622,12 +616,51 @@ ul.nav.nav-footer li:hover a {
     /* Opera < 12.1 */
     
     -webkit-animation: fadein 40s;
-    
     -moz-animation: fadein 40s;
-    
     -o-animation: fadein 40s;
-    
     animation: fadein 40s;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fadein {
+    /* Firefox */
+    
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadein {
+    /* Safari and Chrome */
+    
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes fadein {
+    /* Opera */
+    
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
 
 .details {
@@ -690,10 +723,10 @@ p {
     list-style: none;
 }
 
-.profileid
-{
-      padding-top: 12px;
+.profileid {
+    padding-top: 12px;
 }
+
 p.qoute {
     font-size: 160px !important;
     text-align: center;
@@ -701,40 +734,40 @@ p.qoute {
     color: rgba(201, 94, 80, 1) !important;
     padding-right: 20px;
 }
-.bg-testimonals
-{
-/*
+
+.bg-testimonals {
+    /*
 background: url(../images/testimonals.jpg)no-repeat center;
     background-size: cover;
 */
-
-color: #fff;
-padding: 0 35px;
+    
+    color: #fff;
+    padding: 0 35px;
     margin-top: 20px;
-padding-right: 9px;
-background: #962C1F;
-
-padding-top: 35px;
-
+    padding-right: 9px;
+    background: #962C1F;
+    padding-top: 35px;
 }
+
 p.pull-right.thk-you {
-  padding-right: 20px;
-  padding-top: 6px;
-  font-size: 15px;
-  font-style: italic;
+    padding-right: 20px;
+    padding-top: 6px;
+    font-size: 15px;
+    font-style: italic;
 }
 
 p.pull-right.thk-you {}
+
 .bg-testimonals p {
-  color: #fff;
-  font-size: 16px;
-  font-style: italic;
+    color: #fff;
+    font-size: 16px;
+    font-style: italic;
 }
 
 .bg-testimonals h4 {
-  padding-bottom: 20px;
+    padding-bottom: 20px;
 }
-.testimonalss
-{
+
+.testimonalss {
     padding: 20px;
 }
